@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    line-height: 0px;
+    border: 0px;
+}
+
+body {
+    background-color: #ABC;
+}
+
+.frame {
+    margin: 10px;
+    display: inline-block;
+}
+
+.pixel {
+    display: table-cell;    
+    width: 2px;
+    height: 2px;
+}
+
+.gray3 {
+    background-color: #000;
+}
+
+.gray2 {
+    background-color: #333;
+}
+
+.gray1 {
+    background-color: #CCC;
+}
+
+.gray0 {
+    background-color: #FFF;
+}
+
