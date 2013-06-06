@@ -55,7 +55,7 @@
 
         if (lastTick.CLOCK === 1 && tick.CLOCK === 0) {
             (function() {
-                var colorClass = 'gray' + ((lastTick.DATA1 * 1) + (lastTick.DATA0 * 2));
+                var colorClass = 'gray' + ((tick.DATA1 * 1) + (tick.DATA0 * 2));
                 var pixel = $('<div>');
                 pixel.addClass('pixel');
                 pixel.addClass(colorClass);
